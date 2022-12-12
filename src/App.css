@@ -32,7 +32,18 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+.home-container {
+  height: 80vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-container {
+    height: 40vh;
   }
 }
