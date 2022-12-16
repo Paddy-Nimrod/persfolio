@@ -4,7 +4,7 @@ import "../App.css";
 const HomeComponent = () => {
   return (
     <div>
-      <div className="home-container bg-slate-900">
+      <div className="home-container">
         <div>Welcome to nimrods space</div>
       </div>
     </div>

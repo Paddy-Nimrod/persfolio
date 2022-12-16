@@ -40,6 +40,8 @@
 
 .home-container {
   height: 80vh;
+  background-color: hsl(248, 58%, 13%);
+  padding: auto;
 }
 
 @media only screen and (max-width: 600px) {
