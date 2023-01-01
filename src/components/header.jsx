@@ -11,6 +11,7 @@ const HeaderComponent = () => {
             <li className="p-4">contacts</li>
           </ul>
         </div>
+        
         <div>
           <ul className="flex items-center">
             <li className="p-4">twitter</li>
