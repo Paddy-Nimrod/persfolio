@@ -2,8 +2,8 @@ import React from "react";
 
 const CardComponent = () => {
   return (
-    <div className="w-9 bg-blue-200">
-      <div>
+    <div className="card bg-blue-200">
+      <div className="p-4 items-center">
         <ul>
           <li>Java</li>
           <li>Spring Boot</li>

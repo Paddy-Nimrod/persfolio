@@ -43,9 +43,30 @@
   background-color: hsl(248, 58%, 13%);
   padding: auto;
 }
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+}
+.card {
+  height: 50vh;
+  width: 24vw;
+  border-radius: 5px;
+  margin: auto;
+}
 
 @media only screen and (max-width: 600px) {
   .home-container {
     height: 40vh;
+  }
+  .card-container {
+    display: flex;
+  }
+  .card {
+    height: 30vh;
+    width: 100%;
+    border-radius: 5px;
+    margin: auto;
   }
 }
