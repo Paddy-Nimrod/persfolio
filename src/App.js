@@ -9,6 +9,11 @@ function App() {
     <div className="App">
       <HeaderComponent />
       <HomeComponent />
+      <div className="w-full p-5 mx-auto h-2/5">
+        <div>
+          <h1 className=" text-center font-bold text-lg">With Technology at heart</h1>
+        </div>
+      </div>
       <SkillComponent />
       <ContactComponent />
     </div>

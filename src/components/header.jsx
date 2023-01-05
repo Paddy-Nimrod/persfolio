@@ -2,7 +2,7 @@ import React from "react";
 
 const HeaderComponent = () => {
   return (
-    <div className="bg-transparent z-auto absolute w-full">
+    <div className="bg-transparent z-auto absolute w-full px-2">
       <div className="hidden md:flex lg:flex md:text-white lg:text-white  md:justify-between lg:justify-between">
         <div>
           <ul className="flex items-center">
@@ -11,7 +11,7 @@ const HeaderComponent = () => {
             <li className="p-4">contacts</li>
           </ul>
         </div>
-        
+
         <div>
           <ul className="flex items-center">
             <li className="p-4">twitter</li>
