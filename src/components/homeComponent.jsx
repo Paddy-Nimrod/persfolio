@@ -5,7 +5,10 @@ const HomeComponent = () => {
   return (
     <div>
       <div className="home-container">
-        <div>Welcome to nimrods space</div>
+        <div className="text-white text-lg top-1/4 px-4 font-bold absolute">
+          <h1>Welcome to nimrods tech space</h1>
+        </div>
+        <div></div>
       </div>
     </div>
   );

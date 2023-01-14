@@ -7,7 +7,7 @@ const HeaderComponent = () => {
         <div>
           <ul className="flex items-center">
             <li className="p-4">home</li>
-            <li className="p-4">skills</li>
+            <li className="p-4">Projects</li>
             <li className="p-4">contacts</li>
           </ul>
         </div>
