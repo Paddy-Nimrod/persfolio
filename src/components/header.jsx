@@ -1,11 +1,12 @@
 import React from "react";
+import { FaTwitter, FaGithub } from "react-icons/fa";
 
 const HeaderComponent = () => {
   return (
     <div className="bg-transparent z-auto absolute w-full px-2">
       <div className="hidden md:flex lg:flex md:text-white lg:text-white  md:justify-between lg:justify-between">
         <div>
-          <ul className="flex items-center">
+          <ul className="flex items-center uppercase">
             <li className="p-4">home</li>
             <li className="p-4">Projects</li>
             <li className="p-4">contacts</li>
@@ -14,8 +15,12 @@ const HeaderComponent = () => {
 
         <div>
           <ul className="flex items-center">
-            <li className="p-4">twitter</li>
-            <li className="p-4">github</li>
+            <li className="p-4">
+              <FaTwitter />
+            </li>
+            <li className="p-4">
+              <FaGithub />
+            </li>
           </ul>
         </div>
       </div>
