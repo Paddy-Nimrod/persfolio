@@ -1,5 +1,5 @@
 import React from "react";
-import { FaTwitter, FaGithub } from "react-icons/fa";
+import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const HeaderComponent = () => {
   return (
@@ -20,6 +20,9 @@ const HeaderComponent = () => {
             </li>
             <li className="p-4">
               <FaGithub />
+            </li>
+            <li className="p-4">
+              <FaLinkedin />
             </li>
           </ul>
         </div>
