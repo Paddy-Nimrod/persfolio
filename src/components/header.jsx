@@ -3,7 +3,7 @@ import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const HeaderComponent = () => {
   return (
-    <div className="bg-transparent z-auto absolute w-full px-2">
+    <div className="bg-transparent z-10 absolute w-full px-2">
       <div className="hidden md:flex lg:flex md:text-white lg:text-white  md:justify-between lg:justify-between">
         <div>
           <ul className="flex items-center uppercase">

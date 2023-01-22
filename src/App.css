@@ -42,7 +42,8 @@
   height: 95vh;
   background-color: hsl(248, 58%, 13%);
   padding: auto;
-  border-radius: 0rem 0rem 40rem 0rem;
+  border-radius: 0rem 0rem 0rem 0rem;
+  position: relative;
 }
 .card-container {
   display: flex;
