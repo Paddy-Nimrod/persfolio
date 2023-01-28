@@ -31,7 +31,7 @@ const CardComponent = () => {
       </div>
       <div className="card bg-slate-900 text-white">
         <div className="p-4 items-center">
-          <h2 className=" text-lg font-bold">Technology</h2>
+          <h2 className=" text-lg font-bold text-center ">Technology</h2>
           <ul>
             <li>Java</li>
             <li>Spring Boot</li>
