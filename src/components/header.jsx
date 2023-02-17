@@ -6,7 +6,7 @@ const HeaderComponent = () => {
     <div className="bg-transparent z-10 absolute w-full px-2">
       <div className="hidden md:flex lg:flex md:text-white lg:text-white  md:justify-between lg:justify-between">
         <div>
-          <ul className="flex items-center uppercase">
+          <ul className="flex items-center capitalize font-light">
             <li className="p-4">home</li>
             <li className="p-4">Projects</li>
             <li className="p-4">contacts</li>
