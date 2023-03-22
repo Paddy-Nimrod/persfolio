@@ -8,6 +8,7 @@ const HeaderComponent = () => {
         <div>
           <ul className="flex items-center capitalize font-light">
             <li className="p-4">home</li>
+            <li className="p-4">Services</li>
             <li className="p-4">Projects</li>
             <li className="p-4">contacts</li>
           </ul>
