@@ -4,7 +4,7 @@ import homeImage from "../assets/images/home-img.jpg";
 
 const HomeComponent = () => {
   return (
-    <div>
+    <div className=" font-dinregular">
       <div className="home-container flex flex-col md:flex-row lg:flex-row py-4">
         <div className="text-white capitalize md:text-lg lg:text-lg top-1/4 md:w-1/3 lg:w-1/3 px-4 font-bold  m-auto">
           <h1>Welcome to nimrods tech space</h1>

@@ -11,7 +11,9 @@ function App() {
       <HomeComponent />
       <div className="w-full p-5 mx-auto h-2/5">
         <div>
-          <h1 className=" text-center font-bold text-lg">With Technology at heart</h1>
+          <h1 className=" text-center font-bold text-2xl py-6 underline underline-offset-8 font-dinregular">
+            With Technology at heart
+          </h1>
         </div>
       </div>
       <SkillComponent />
