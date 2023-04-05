@@ -7,24 +7,24 @@ const HeaderComponent = () => {
     <div className="bg-white z-10 absolute w-full px-2 font-dinregular">
       <div className="hidden md:flex lg:flex md:text-black lg:text-black  md:justify-between lg:justify-between">
         <div>
-          <ul className="flex items-center capitalize font-light">
+          <ul className="flex items-center capitalize font-semibold">
             <Link to="/">
-              <li className="p-2 hover:underline hover:underline-offset-8">
+              <li className="p-3 hover:underline hover:underline-offset-8">
                 home
               </li>
             </Link>
             <Link to="/services">
-              <li className="p-2 hover:underline hover:underline-offset-8">
+              <li className="p-3 hover:underline hover:underline-offset-8">
                 Services
               </li>
             </Link>
             <Link to="/projects">
-              <li className="p-2 hover:underline hover:underline-offset-8">
+              <li className="p-3 hover:underline hover:underline-offset-8">
                 Projects
               </li>
             </Link>
             <Link to="/contacts">
-              <li className="p-2 hover:underline hover:underline-offset-8">
+              <li className="p-3 hover:underline hover:underline-offset-8">
                 contacts
               </li>
             </Link>
