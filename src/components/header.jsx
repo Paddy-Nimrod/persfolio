@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const HeaderComponent = () => {
   return (
-    <div className="bg-transparent z-10 absolute w-full px-2 font-dinregular">
+    <div className="bg-white z-10 absolute w-full px-2 font-dinregular">
       <div className="hidden md:flex lg:flex md:text-white lg:text-white  md:justify-between lg:justify-between">
         <div>
           <ul className="flex items-center capitalize font-light">
