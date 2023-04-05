@@ -10,6 +10,15 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
   },
+  {
+    path: "/services",
+  },
+  {
+    path: "/projects",
+  },
+  {
+    path: "/contacts",
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
