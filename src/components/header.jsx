@@ -8,10 +8,18 @@ const HeaderComponent = () => {
       <div className="hidden md:flex lg:flex md:text-white lg:text-white  md:justify-between lg:justify-between">
         <div>
           <ul className="flex items-center capitalize font-light">
-            <li className="p-4">home</li>
-            <li className="p-4">Services</li>
-            <li className="p-4">Projects</li>
-            <li className="p-4">contacts</li>
+            <Link to="/">
+              <li className="p-4">home</li>
+            </Link>
+            <Link to="/services">
+              <li className="p-4">Services</li>
+            </Link>
+            <Link to="/projects">
+              <li className="p-4">Projects</li>
+            </Link>
+            <Link to="/contacts">
+              <li className="p-4">contacts</li>
+            </Link>
           </ul>
         </div>
 
