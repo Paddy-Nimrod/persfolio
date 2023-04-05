@@ -4,6 +4,9 @@ import "./index.css";
 import App from "./App";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Services from "./pages/services";
+import Projects from "./pages/projects";
+import Contacts from "./pages/contacts";
 
 const router = createBrowserRouter([
   {
@@ -12,12 +15,15 @@ const router = createBrowserRouter([
   },
   {
     path: "/services",
+    element: <Services />,
   },
   {
     path: "/projects",
+    element: <Projects />,
   },
   {
     path: "/contacts",
+    element: <Contacts />,
   },
 ]);
 
