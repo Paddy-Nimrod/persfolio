@@ -9,16 +9,24 @@ const HeaderComponent = () => {
         <div>
           <ul className="flex items-center capitalize font-light">
             <Link to="/">
-              <li className="p-4">home</li>
+              <li className="p-4 hover:underline hover:underline-offset-8">
+                home
+              </li>
             </Link>
             <Link to="/services">
-              <li className="p-4">Services</li>
+              <li className="p-4 hover:underline hover:underline-offset-8">
+                Services
+              </li>
             </Link>
             <Link to="/projects">
-              <li className="p-4">Projects</li>
+              <li className="p-4 hover:underline hover:underline-offset-8">
+                Projects
+              </li>
             </Link>
             <Link to="/contacts">
-              <li className="p-4">contacts</li>
+              <li className="p-4 hover:underline hover:underline-offset-8">
+                contacts
+              </li>
             </Link>
           </ul>
         </div>
