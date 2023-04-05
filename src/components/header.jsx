@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const HeaderComponent = () => {
   return (
     <div className="bg-white z-10 absolute w-full px-2 font-dinregular">
-      <div className="hidden md:flex lg:flex md:text-white lg:text-white  md:justify-between lg:justify-between">
+      <div className="hidden md:flex lg:flex md:text-black lg:text-black  md:justify-between lg:justify-between">
         <div>
           <ul className="flex items-center capitalize font-light">
             <Link to="/">
