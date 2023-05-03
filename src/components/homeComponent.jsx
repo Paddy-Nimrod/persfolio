@@ -43,7 +43,7 @@ const HomeComponent = () => {
           <div className="text-white my-2 font-semibold">
             <h2>Top Tech skills</h2>
           </div>
-          <div className="grid grid-cols-3 md:grid-cols-4 md:gap-4 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-4 md:grid-cols-4 md:gap-4 lg:grid-cols-4 gap-4">
             <div className="hover:scale-150">
               <div className="flex items-center justify-center m-1">
                 <FaJs />
