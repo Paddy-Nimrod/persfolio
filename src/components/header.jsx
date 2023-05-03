@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const HeaderComponent = () => {
   return (
-    <div className="bg-white z-10 absolute w-full px-2 font-dinregular">
+    <div className="bg-white h-16 z-10 absolute w-full px-2 font-dinregular">
       <div className="hidden md:flex lg:flex md:text-black lg:text-black  md:justify-between lg:justify-between">
         <div>
           <ul className="flex items-center capitalize font-semibold">
@@ -45,9 +45,9 @@ const HeaderComponent = () => {
           </ul>
         </div>
       </div>
-      <div className="flex justify-start md:hidden p-4">
-        <div className="text-white font-bold m-4 border rounded-md p-1">
-          Nimrod
+      <div className="flex justify-start items-center md:hidden ">
+        <div className="text-slate-900 font-bold m-4 border-2 border-slate-900 rounded-md p-1">
+          Is_nimu
         </div>
       </div>
     </div>
