@@ -20,18 +20,22 @@ const HomeComponent = () => {
   return (
     <div className=" font-dinregular">
       <div className="home-container flex flex-col md:flex-row lg:flex-row py-4">
-        <div className="text-white text-lg top-3/4 md:top-1/4 lg:top-1/4 px-2 font-bold  md:w-1/2 lg:w-1/2 md:m-auto lg:m-auto my-2">
+        <div className="text-white h-48 flex justify-center items-center md:flex-col p-4 my-5 top-3/4 md:top-1/4 lg:top-1/4 px-2 font-bold  md:w-1/2 lg:w-1/2 md:m-auto lg:m-auto ">
           <img
             src={homeImage}
             alt="web-design and development"
-            className=" w-1/3 m-auto rounded-full outline outline-offset-4 outline-2"
+            className=" w-1/4 md:w-1/3 m-auto rounded-full outline outline-offset-4 outline-2"
           />
-          <div className="font-normal text-xl m-2">Nimrod Ambetsa ~ </div>
-          <div className="font-thin font">
-            <i>Full stack Developer</i>
-          </div>
-          <div className="font-dinregular p-4">
-            "Good software, like wine, takes time."
+          <div className="flex flex-col">
+            <div className="font-normal text-sm m-1 md:text-xl lg:text-xl md:m-2 ">
+              Nimrod Ambetsa ~{" "}
+            </div>
+            <div className="font-semibold text-sm md:text-lg lg:text-xl">
+              <i>Full stack Developer</i>
+            </div>
+            <div className="text-sm md:text-lg font-semibold md:font-bold font-dinregular p-1 md:p-4">
+              "Good software, like wine, takes time."
+            </div>
           </div>
         </div>
 
@@ -39,7 +43,7 @@ const HomeComponent = () => {
           <div className="text-white my-2 font-semibold">
             <h2>Top Tech skills</h2>
           </div>
-          <div className="grid grid-cols-4 gap-4">
+          <div className="grid grid-cols-3 md:grid-cols-4 md:gap-4 lg:grid-cols-4 gap-4">
             <div className="hover:scale-150">
               <div className="flex items-center justify-center m-1">
                 <FaJs />

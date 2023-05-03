@@ -65,7 +65,9 @@
 
 @media only screen and (max-width: 600px) {
   .home-container {
-    height: 60vh;
+    top: 30%;
+    position: relative;
+    height: 75%;
     border-radius: 0rem 0rem 0rem 0rem;
   }
   .card-container {
