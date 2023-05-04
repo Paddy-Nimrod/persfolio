@@ -41,7 +41,7 @@ const HomeComponent = () => {
 
         <div className=" text-white capitalize md:text-lg lg:text-lg top-1/4 md:w-1/3 lg:w-1/3 m-auto border border-3 rounded-md p-4">
           <div className="text-white my-2 font-semibold">
-            <h2>Top Tech skills</h2>
+            <h2 className="m-2">Top Tech skills</h2>
           </div>
           <div className="grid grid-cols-4 md:grid-cols-4 md:gap-4 lg:grid-cols-4 gap-4">
             <div className="hover:scale-150">
