@@ -4,10 +4,15 @@ import { Link } from "react-router-dom";
 
 const HeaderComponent = () => {
   return (
-    <div className="bg-white h-16 z-10 absolute w-full px-2 font-dinregular">
-      <div className="hidden md:flex lg:flex md:text-black lg:text-black  md:justify-between lg:justify-between">
-        <div>
-          <ul className="flex items-center capitalize font-semibold">
+    <div className="bg-white md:flex lg:flex h-16 z-10 absolute w-full px-2 font-dinregular">
+      <div className="hidden md:flex lg:flex md:text-black lg:text-black items-center md:justify-between lg:justify-between">
+        <div className="mx-4 p-2">
+          <div className=" text-2xl font-semibold rounded-md border-black border-2 p-1">
+            Nimrod
+          </div>
+        </div>
+        <div className="">
+          <ul className="flex items-center capitalize font-normal">
             <Link to="/">
               <li className="p-3 hover:underline hover:underline-offset-8">
                 home
@@ -31,7 +36,7 @@ const HeaderComponent = () => {
           </ul>
         </div>
 
-        <div>
+        {/* <div>
           <ul className="flex items-center">
             <li className="p-4">
               <FaTwitter />
@@ -43,7 +48,7 @@ const HeaderComponent = () => {
               <FaLinkedin />
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
       <div className="flex justify-start items-center md:hidden ">
         <div className="text-slate-900 font-bold m-4 border-2 border-slate-900 rounded-md p-1">
