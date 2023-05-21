@@ -52,7 +52,7 @@ const HeaderComponent = () => {
       </div>
       <div className="flex justify-start items-center md:hidden ">
         <div className="text-slate-900 font-bold m-4 border-2 border-slate-900 rounded-md p-1">
-          Is_nimu
+          Nimrod
         </div>
       </div>
     </div>
