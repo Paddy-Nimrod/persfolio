@@ -18,11 +18,7 @@ const HeaderComponent = () => {
                 home
               </li>
             </Link>
-            <Link to="/services">
-              <li className="p-3 hover:underline hover:underline-offset-8">
-                Services
-              </li>
-            </Link>
+
             <Link to="/projects">
               <li className="p-3 hover:underline hover:underline-offset-8">
                 Projects
