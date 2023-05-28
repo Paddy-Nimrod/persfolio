@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const HeaderComponent = () => {
   return (
-    <div className="bg-white md:flex lg:flex h-16 z-10 absolute w-full px-2 font-dinregular">
+    <div className="bg-white md:flex lg:flex h-16 z-10 absolute w-full px-2 font-dinregular border-b-2">
       <div className="hidden md:flex lg:flex md:text-black lg:text-black items-center md:justify-between lg:justify-between">
         <div className="mx-4 p-2">
           <div className=" text-2xl font-semibold rounded-md border-black border-2 p-1">
