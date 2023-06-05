@@ -54,11 +54,11 @@ function Contacts() {
           </div>
 
           <div className=" h-20 md:h-2/4 flex bg-black w-full m-auto md:w-8/12 rounded-sm">
-            <div className="w-1/3 h-full">
+            <div className="w-1/3 h-full overflow-hidden">
               <img
                 src={gmail}
                 alt="email"
-                className=" object-cover h-full w-full opacity-50 hover:opacity-80"
+                className=" object-cover h-full w-full opacity-50 hover:scale-110 hover:opacity-80"
               />
             </div>
             <div className="flex flex-col gap-2 items-center justify-center w-2/3 p-2 md:p-4">
@@ -76,11 +76,11 @@ function Contacts() {
             </div>
           </div>
           <div className=" h-20 md:h-2/4 flex bg-black w-full m-auto md:w-8/12 rounded-sm border-none">
-            <div className="w-1/3 h-full">
+            <div className="w-1/3 h-full overflow-hidden">
               <img
                 src={whatsapp}
                 alt="socialwhatsapp"
-                className="opacity-50 object-fill md:h-full hover:opacity-80"
+                className="opacity-50 object-fill md:h-full hover:scale-110 hover:opacity-80"
               />
             </div>
             <div className="flex flex-col gap-2 items-center justify-center w-2/3 p-4">
