@@ -14,7 +14,7 @@ function Contacts() {
   return (
     <div>
       <HeaderComponent />
-      <div className="grid grid-cols-1 gap-4 md:flex w-full m-auto h-full md:h-screen p-2 md:p-4">
+      <div className="grid grid-cols-1 gap-8 md:flex w-full m-auto h-full md:h-screen p-2 md:p-4">
         <div className="grid grid-cols-1 w-full top-12 relative gap-4 md:flex md:flex-col md:items-center md:justify-center md:w-6/12 my-5 md:m-auto md:h-5/6 p-2 md:p-4 md:gap-4">
           <div className=" h-20 md:h-2/4 flex bg-black w-full m-auto md:w-8/12 rounded-sm md:rounded-md">
             <div className="w-1/3 bg-white h-full"></div>
@@ -43,7 +43,7 @@ function Contacts() {
           </div>
         </div>
         <div className="w-full md:w-6/12  my-4 md:m-auto md:h-5/6 md:p-4 gap-2 block relative">
-          <div className="m-2 md:m-4 font-dinregular text-center font-medium capitalize">
+          <div className="m-2 md:m-4 font-dinregular text-center font-semibold capitalize">
             Please leave your Message
           </div>
           <Formik
@@ -60,9 +60,7 @@ function Contacts() {
             {({ errors, touched }) => (
               <Form className="flex flex-col gap-2 w-full md:w-10/12 p-2 md:m-auto font-dinregular">
                 <div className="flex flex-col gap-2 w-full">
-                  <label className="font-semibold text-xs uppercase">
-                    Email
-                  </label>
+                  <label className="font-thin text-xs uppercase">Email</label>
                   {errors.email && touched.email ? (
                     <div>{errors.email}</div>
                   ) : null}
@@ -74,9 +72,7 @@ function Contacts() {
                   />
                 </div>
                 <div className=" flex flex-col gap-2">
-                  <label className="font-semibold uppercase text-xs">
-                    Message
-                  </label>
+                  <label className="font-thin uppercase text-xs">Message</label>
                   <Field
                     className="p-2 border-none rounded-sm bg-slate-100 resize-none"
                     name="message"
@@ -85,12 +81,12 @@ function Contacts() {
                     placeholder="message ..."
                   />
                 </div>
-                <div className="flex justify-end">
+                <div className="flex md:justify-end">
                   <button
                     type="submit"
-                    className="bg-black text-white items-end font-dinregular h-9 w-4/12 rounded-sm"
+                    className="bg-black text-white items-end font-dinregular h-9 w-full md:w-4/12 rounded-sm"
                   >
-                    Submit
+                    Send Message
                   </button>
                 </div>
               </Form>
