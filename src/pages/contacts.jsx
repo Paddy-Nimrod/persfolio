@@ -2,6 +2,8 @@ import React from "react";
 import HeaderComponent from "../components/header";
 import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
+import { FaMobile, FaWhatsapp } from "react-icons/fa";
+import { SiGmail, SiGooglemessages } from "react-icons/si";
 
 const messageSchema = Yup.object().shape({
   Email: Yup.string().email("Invalid email address").required("Email Required"),
@@ -16,28 +18,53 @@ function Contacts() {
       <HeaderComponent />
       <div className="grid grid-cols-1 gap-8 md:flex w-full m-auto h-full md:h-screen p-2 md:p-4">
         <div className="grid grid-cols-1 w-full top-12 relative gap-4 md:flex md:flex-col md:items-center md:justify-center md:w-6/12 my-5 md:m-auto md:h-5/6 p-2 md:p-4 md:gap-4">
-          <div className=" h-20 md:h-2/4 flex bg-black w-full m-auto md:w-8/12 rounded-sm md:rounded-md">
+          <div className=" h-20 md:h-2/4 flex bg-black w-full m-auto md:w-8/12 rounded-sm">
             <div className="w-1/3 bg-white h-full"></div>
-            <div className="w-2/3 p-2 md:p-4">
-              <div className="font-dinregular font-medium text-white">
-                hello client
+            <div className="flex justify-center items-center w-2/3 p-2 md:p-4">
+              <div className="flex gap-2 font-dinregular font-medium text-white">
+                <div className="">
+                  <div className="flex gap-2 items-center">
+                    <div className="border-2 border-white rounded-full p-1">
+                      <FaMobile />
+                    </div>
+                    Mobile
+                  </div>
+
+                  <div className="text-white font-dinregular gap-2">
+                    <div className="flex gap-2 items-center">
+                      <div className="border-2 border-white rounded-full p-1">
+                        <SiGooglemessages />
+                      </div>
+                      SMS
+                    </div>
+                  </div>
+                </div>
+                <ul className="list-none">
+                  <li>0708506842</li>
+                </ul>
               </div>
             </div>
           </div>
 
-          <div className=" h-20 md:h-2/4 flex bg-black w-full m-auto md:w-8/12 rounded-sm md:rounded-md">
+          <div className=" h-20 md:h-2/4 flex bg-black w-full m-auto md:w-8/12 rounded-sm">
             <div className="w-1/3 bg-white h-full"></div>
-            <div className="w-2/3 p-4">
-              <div className="font-dinregular font-medium text-white">
-                hello client
+            <div className="flex justify-center w-2/3 p-2 md:p-4">
+              <div className="flex items-center gap-2 font-dinregular font-medium text-white">
+                <div className="border-2 border-white rounded-full p-1">
+                  <SiGmail />
+                </div>
+                Email.
               </div>
             </div>
           </div>
-          <div className=" h-20 md:h-2/4 flex bg-black w-full m-auto md:w-8/12 rounded-sm md:rounded-md border-none">
+          <div className=" h-20 md:h-2/4 flex bg-black w-full m-auto md:w-8/12 rounded-sm border-none">
             <div className="w-1/3 bg-white h-full"></div>
-            <div className="w-2/3 p-4">
-              <div className="font-dinregular font-medium text-white">
-                hello client
+            <div className="flex justify-center w-2/3 p-4">
+              <div className="flex items-center gap-2 font-dinregular font-medium text-white">
+                <div className="border-2 border-white rounded-full p-1">
+                  <FaWhatsapp />
+                </div>
+                <div>Whatsapp.</div>
               </div>
             </div>
           </div>
@@ -81,10 +108,10 @@ function Contacts() {
                     placeholder="message ..."
                   />
                 </div>
-                <div className="flex md:justify-end">
+                <div className="flex md:justify-center">
                   <button
                     type="submit"
-                    className="bg-black text-white items-end font-dinregular h-9 w-full md:w-4/12 rounded-sm"
+                    className="bg-black text-white items-end font-dinregular h-9 w-full rounded-sm"
                   >
                     Send Message
                   </button>
