@@ -27,7 +27,7 @@ function Contacts() {
               <img
                 src={phoneImage}
                 alt="mobile"
-                className="object-fit overflow-hidden md:h-full hover:scale-110 opacity-50 hover:opacity-80"
+                className="overflow-hidden md:h-full hover:scale-110 opacity-50 hover:opacity-80"
               />
             </div>
             <div className="flex justify-center items-center w-2/3 p-2 md:p-4">

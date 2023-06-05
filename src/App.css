@@ -50,6 +50,7 @@ body {
 
 .home-container {
   height: 100vh;
+  overflow: hidden;
   background-color: hsl(0, 0%, 0%);
   padding: auto;
   border-radius: 0rem 0rem 0rem 0rem;
@@ -70,9 +71,8 @@ body {
 
 @media only screen and (max-width: 600px) {
   .home-container {
-    top: 30%;
+    top: 3rem;
     position: relative;
-    height: 75%;
     border-radius: 0rem 0rem 0rem 0rem;
   }
   .card-container {

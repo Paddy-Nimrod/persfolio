@@ -21,7 +21,7 @@ const HomeComponent = () => {
   return (
     <div className="font-dinregular">
       <div className="home-container flex flex-col md:flex-row lg:flex-row py-4">
-        <div className="text-white h-48 flex justify-center items-center md:flex-col p-4 my-5 top-3/4 md:top-1/4 lg:top-1/4 font-bold  md:w-1/2 lg:w-1/2 md:m-auto lg:m-auto ">
+        <div className="text-white flex justify-center items-center gap-2 flex-col p-4 my-5  font-bold  md:w-1/2 lg:w-1/2 md:m-auto lg:m-auto ">
           <img
             src={homeImage}
             alt="web-design and development"
