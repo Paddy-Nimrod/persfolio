@@ -40,95 +40,97 @@ const HomeComponent = () => {
           </div>
         </div>
 
-        <div className="h-full text-white capitalize md:text-lg lg:text-lg md:w-1/2 lg:w-1/2 relative top-12 m-autorounded-sm p-4">
-          <div className="text-white my-2 font-semibold">
-            <h2 className="m-2">Top Tech skills</h2>
-          </div>
-          <div className="grid grid-cols-4 md:grid-cols-4 md:gap-4 lg:grid-cols-4 gap-4">
-            <div className="hover:scale-150">
-              <div className="flex items-center justify-center m-1">
-                <FaJs />
-              </div>
-              <p className="text-sm">Javascript</p>
+        <div className="h-full text-white capitalize md:text-lg lg:text-lg md:w-1/2 lg:w-1/2 relative top-12 m-autorounded-sm p-4 ">
+          <div className="border-2 border-white p-2 rounded-sm">
+            <div className="text-white my-2 font-semibold">
+              <h2 className="text-left m-2">Top Tech skills</h2>
             </div>
-            <div className="hover:scale-150">
-              <div className="flex justify-center items-center m-1">
-                <FaReact />
+            <div className="grid grid-cols-4 md:grid-cols-4 md:gap-4 lg:grid-cols-4 gap-4">
+              <div className="hover:scale-150">
+                <div className="flex items-center justify-center m-1">
+                  <FaJs />
+                </div>
+                <p className="text-sm">Javascript</p>
               </div>
-              <p className="text-sm">ReactJs</p>
-            </div>
-            <div className="hover:scale-150">
-              <div className="flex justify-center items-center m-1">
-                <SiNextdotjs />
+              <div className="hover:scale-150">
+                <div className="flex justify-center items-center m-1">
+                  <FaReact />
+                </div>
+                <p className="text-sm">ReactJs</p>
               </div>
-              <p className="text-sm">NextJs</p>
-            </div>
-            <div className="hover:scale-150">
-              <div className="flex justify-center items-center m-1">
-                <FaNodeJs />
+              <div className="hover:scale-150">
+                <div className="flex justify-center items-center m-1">
+                  <SiNextdotjs />
+                </div>
+                <p className="text-sm">NextJs</p>
               </div>
-              <p className="text-sm">NodeJs</p>
-            </div>
-            <div className="hover:scale-150">
-              <div className="flex justify-center items-center m-1">
-                <FaJava />
+              <div className="hover:scale-150">
+                <div className="flex justify-center items-center m-1">
+                  <FaNodeJs />
+                </div>
+                <p className="text-sm">NodeJs</p>
               </div>
-              <p className="text-sm">Java</p>
-            </div>
-            <div className="hover:scale-150">
-              <div className="flex justify-center items-center m-1">
-                <SiPostgresql />
+              <div className="hover:scale-150">
+                <div className="flex justify-center items-center m-1">
+                  <FaJava />
+                </div>
+                <p className="text-sm">Java</p>
               </div>
-              <p className="text-sm">PostgreSQL</p>
-            </div>
-            <div className="hover:scale-150">
-              <div className="flex justify-center items-center m-1">
-                <SiMysql />
+              <div className="hover:scale-150">
+                <div className="flex justify-center items-center m-1">
+                  <SiPostgresql />
+                </div>
+                <p className="text-sm">PostgreSQL</p>
               </div>
-              <p className="text-sm">MySQL</p>
-            </div>
-            <div className="hover:scale-150">
-              <div className="flex justify-center items-center m-1">
-                <SiMongodb />
+              <div className="hover:scale-150">
+                <div className="flex justify-center items-center m-1">
+                  <SiMysql />
+                </div>
+                <p className="text-sm">MySQL</p>
               </div>
-              <p className="text-sm">MongoDB</p>
-            </div>
+              <div className="hover:scale-150">
+                <div className="flex justify-center items-center m-1">
+                  <SiMongodb />
+                </div>
+                <p className="text-sm">MongoDB</p>
+              </div>
 
-            <div className="hover:scale-150">
-              <div className="flex justify-center items-center m-1">
-                <SiTailwindcss />
+              <div className="hover:scale-150">
+                <div className="flex justify-center items-center m-1">
+                  <SiTailwindcss />
+                </div>
+                <p className="text-sm">TailwindCSS</p>
               </div>
-              <p className="text-sm">TailwindCSS</p>
-            </div>
-            <div className="hover:scale-150">
-              <div className="flex justify-center items-center m-1">
-                <SiExpress />
+              <div className="hover:scale-150">
+                <div className="flex justify-center items-center m-1">
+                  <SiExpress />
+                </div>
+                <p className="text-sm">Express Js</p>
               </div>
-              <p className="text-sm">Express Js</p>
-            </div>
-            <div className="hover:scale-150">
-              <div className="flex justify-center items-center m-1">
-                <SiSpringboot />
+              <div className="hover:scale-150">
+                <div className="flex justify-center items-center m-1">
+                  <SiSpringboot />
+                </div>
+                <p className="text-sm">Spring Boot</p>
               </div>
-              <p className="text-sm">Spring Boot</p>
-            </div>
-            <div className="hover:scale-150">
-              <div className="flex justify-center items-center m-1">
-                <SiRedux />
+              <div className="hover:scale-150">
+                <div className="flex justify-center items-center m-1">
+                  <SiRedux />
+                </div>
+                <p className="text-sm">Redux</p>
               </div>
-              <p className="text-sm">Redux</p>
-            </div>
-            <div className="hover:scale-150">
-              <div className="flex justify-center items-center m-1">
-                <SiFormstack />
+              <div className="hover:scale-150">
+                <div className="flex justify-center items-center m-1">
+                  <SiFormstack />
+                </div>
+                <p className="text-sm">Formik</p>
               </div>
-              <p className="text-sm">Formik</p>
-            </div>
-            <div className="hover:scale-150">
-              <div className="flex justify-center items-center m-1">
-                <SiAzuredevops />
+              <div className="hover:scale-150">
+                <div className="flex justify-center items-center m-1">
+                  <SiAzuredevops />
+                </div>
+                <p className="text-sm">Azure Devops</p>
               </div>
-              <p className="text-sm">Azure Devops</p>
             </div>
           </div>
         </div>

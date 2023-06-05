@@ -37,17 +37,17 @@ function Contacts() {
                     <div className="border-2 border-white rounded-full p-1">
                       <FaMobile />
                     </div>
-                    <div className="font-bold">Mobile</div>
+                    <div className="font-bold text-xs md:text-base">Mobile</div>
                   </div>
                   <div className="flex gap-2 items-center">
                     <div className="border-2 border-white rounded-full p-1">
                       <SiGooglemessages />
                     </div>
-                    <div className="font-bold">SMS</div>
+                    <div className="font-bold text-xs md:text-base">SMS</div>
                   </div>
                 </div>
                 <ul className="list-none">
-                  <li>0708506842</li>
+                  <li className="text-xs md:text-base">0708506842</li>
                 </ul>
               </div>
             </div>
@@ -61,15 +61,15 @@ function Contacts() {
                 className=" object-cover h-full w-full opacity-50 hover:scale-110 hover:opacity-80"
               />
             </div>
-            <div className="flex flex-col gap-2 items-center justify-center w-2/3 p-2 md:p-4">
+            <div className="flex flex-col gap-1 md:gap-2 items-center justify-center w-2/3 p-2 md:p-4">
               <div className="flex items-center gap-2 font-dinregular font-medium text-white">
                 <div className="border-2 border-white rounded-full p-1">
                   <SiGmail />
                 </div>
-                <div className="font-bold">Email</div>
+                <div className="font-bold text-sm md:text-base">Email</div>
               </div>
               <ul className="list-none">
-                <li className="text-white font-thin font-dinregular cursor-pointer">
+                <li className="text-white font-thin font-dinregular cursor-pointer text-xs md:text-base">
                   nimrod.paul21@gmail.com
                 </li>
               </ul>
@@ -83,15 +83,15 @@ function Contacts() {
                 className="opacity-50 object-fill md:h-full hover:scale-110 hover:opacity-80"
               />
             </div>
-            <div className="flex flex-col gap-2 items-center justify-center w-2/3 p-4">
+            <div className="flex flex-col gap-1 md:gap-2 items-center justify-center w-2/3 p-2 md:p-4">
               <div className="flex items-center gap-2 font-dinregular font-medium text-white">
                 <div className="border-2 border-white rounded-full p-1">
                   <FaWhatsapp />
                 </div>
-                <div className="font-bold">Whatsapp.</div>
+                <div className="font-bold text-xs md:text-base">Whatsapp</div>
               </div>
               <ul className="list-none">
-                <li className="text-white font-thin font-dinregular cursor-pointer">
+                <li className="text-white text-xs md:text-base font-thin font-dinregular cursor-pointer">
                   0708506842
                 </li>
               </ul>
