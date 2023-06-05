@@ -5,6 +5,10 @@ import * as Yup from "yup";
 import { FaMobile, FaWhatsapp } from "react-icons/fa";
 import { SiGmail, SiGooglemessages } from "react-icons/si";
 
+import phoneImage from "../assets/images/phone-img.jpg";
+import gmail from "../assets/images/gmail.jpg";
+import whatsapp from "../assets/images/whatschat.jpg";
+
 const messageSchema = Yup.object().shape({
   Email: Yup.string().email("Invalid email address").required("Email Required"),
   message: Yup.string()
@@ -19,24 +23,27 @@ function Contacts() {
       <div className="grid grid-cols-1 gap-8 md:flex w-full m-auto h-full md:h-screen p-2 md:p-4">
         <div className="grid grid-cols-1 w-full top-12 relative gap-4 md:flex md:flex-col md:items-center md:justify-center md:w-6/12 my-5 md:m-auto md:h-5/6 p-2 md:p-4 md:gap-4">
           <div className=" h-20 md:h-2/4 flex bg-black w-full m-auto md:w-8/12 rounded-sm">
-            <div className="w-1/3 bg-white h-full"></div>
+            <div className="w-1/3 h-full overflow-hidden">
+              <img
+                src={phoneImage}
+                alt="mobile"
+                className="object-fit overflow-hidden md:h-full hover:scale-110 opacity-50 hover:opacity-80"
+              />
+            </div>
             <div className="flex justify-center items-center w-2/3 p-2 md:p-4">
-              <div className="flex gap-2 font-dinregular font-medium text-white">
-                <div className="">
+              <div className="flex flex-col gap-2 items-center font-dinregular font-medium text-white">
+                <div className="flex items-center gap-2 justify-center">
                   <div className="flex gap-2 items-center">
                     <div className="border-2 border-white rounded-full p-1">
                       <FaMobile />
                     </div>
-                    Mobile
+                    <div className="font-bold">Mobile</div>
                   </div>
-
-                  <div className="text-white font-dinregular gap-2">
-                    <div className="flex gap-2 items-center">
-                      <div className="border-2 border-white rounded-full p-1">
-                        <SiGooglemessages />
-                      </div>
-                      SMS
+                  <div className="flex gap-2 items-center">
+                    <div className="border-2 border-white rounded-full p-1">
+                      <SiGooglemessages />
                     </div>
+                    <div className="font-bold">SMS</div>
                   </div>
                 </div>
                 <ul className="list-none">
@@ -47,25 +54,47 @@ function Contacts() {
           </div>
 
           <div className=" h-20 md:h-2/4 flex bg-black w-full m-auto md:w-8/12 rounded-sm">
-            <div className="w-1/3 bg-white h-full"></div>
-            <div className="flex justify-center w-2/3 p-2 md:p-4">
+            <div className="w-1/3 h-full">
+              <img
+                src={gmail}
+                alt="email"
+                className=" object-cover h-full w-full opacity-50 hover:opacity-80"
+              />
+            </div>
+            <div className="flex flex-col gap-2 items-center justify-center w-2/3 p-2 md:p-4">
               <div className="flex items-center gap-2 font-dinregular font-medium text-white">
                 <div className="border-2 border-white rounded-full p-1">
                   <SiGmail />
                 </div>
-                Email.
+                <div className="font-bold">Email</div>
               </div>
+              <ul className="list-none">
+                <li className="text-white font-thin font-dinregular cursor-pointer">
+                  nimrod.paul21@gmail.com
+                </li>
+              </ul>
             </div>
           </div>
           <div className=" h-20 md:h-2/4 flex bg-black w-full m-auto md:w-8/12 rounded-sm border-none">
-            <div className="w-1/3 bg-white h-full"></div>
-            <div className="flex justify-center w-2/3 p-4">
+            <div className="w-1/3 h-full">
+              <img
+                src={whatsapp}
+                alt="socialwhatsapp"
+                className="opacity-50 object-fill md:h-full hover:opacity-80"
+              />
+            </div>
+            <div className="flex flex-col gap-2 items-center justify-center w-2/3 p-4">
               <div className="flex items-center gap-2 font-dinregular font-medium text-white">
                 <div className="border-2 border-white rounded-full p-1">
                   <FaWhatsapp />
                 </div>
-                <div>Whatsapp.</div>
+                <div className="font-bold">Whatsapp.</div>
               </div>
+              <ul className="list-none">
+                <li className="text-white font-thin font-dinregular cursor-pointer">
+                  0708506842
+                </li>
+              </ul>
             </div>
           </div>
         </div>

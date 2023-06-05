@@ -50,7 +50,7 @@ body {
 
 .home-container {
   height: 100vh;
-  background-color: hsl(235, 44%, 11%);
+  background-color: hsl(0, 0%, 0%);
   padding: auto;
   border-radius: 0rem 0rem 0rem 0rem;
   position: relative;

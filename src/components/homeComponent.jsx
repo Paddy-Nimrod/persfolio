@@ -12,13 +12,14 @@ import {
   SiRedux,
   SiFormstack,
   SiNextdotjs,
+  SiAzuredevops,
 } from "react-icons/si";
 
 import { FaJs, FaReact, FaNodeJs, FaJava } from "react-icons/fa";
 
 const HomeComponent = () => {
   return (
-    <div className=" font-dinregular">
+    <div className="font-dinregular">
       <div className="home-container flex flex-col md:flex-row lg:flex-row py-4">
         <div className="text-white h-48 flex justify-center items-center md:flex-col p-4 my-5 top-3/4 md:top-1/4 lg:top-1/4 font-bold  md:w-1/2 lg:w-1/2 md:m-auto lg:m-auto ">
           <img
@@ -39,7 +40,7 @@ const HomeComponent = () => {
           </div>
         </div>
 
-        <div className=" text-white capitalize md:text-lg lg:text-lg top-1/4 md:w-1/3 lg:w-1/3 m-auto border border-3 rounded-md p-4">
+        <div className="h-full text-white capitalize md:text-lg lg:text-lg md:w-1/2 lg:w-1/2 relative top-12 m-autorounded-sm p-4">
           <div className="text-white my-2 font-semibold">
             <h2 className="m-2">Top Tech skills</h2>
           </div>
@@ -122,6 +123,12 @@ const HomeComponent = () => {
                 <SiFormstack />
               </div>
               <p className="text-sm">Formik</p>
+            </div>
+            <div className="hover:scale-150">
+              <div className="flex justify-center items-center m-1">
+                <SiAzuredevops />
+              </div>
+              <p className="text-sm">Azure Devops</p>
             </div>
           </div>
         </div>
